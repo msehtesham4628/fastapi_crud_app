@@ -71,3 +71,4 @@ def delete_item(item_id: int):
 
     del items_db[item_id]
     return {"message": f"Item {item_id} deleted successfully 🗑️"}
+

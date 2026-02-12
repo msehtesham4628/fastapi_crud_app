@@ -7,3 +7,4 @@ class ItemResponse(BaseModel):
     price: float
     in_stock: bool
     message: str
+
